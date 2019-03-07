@@ -1,1 +1,5 @@
-.pyc
+/.pyc
+/vendor
+/bug_test.go
+/coverage.txt
+/.idea
