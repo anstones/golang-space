@@ -36,7 +36,9 @@ func (h *Human) Sing(lyrics string) {
 //Human对象实现Guzzle方法 
 func (h *Human) Guzzle(beerStein string) {    
 	fmt.Println("Guzzle Guzzle Guzzle...", beerStein) 
-} 
+}
+
+
 // Employee重载Human的Sayhi方法 
 func (e *Employee) SayHi() {    
 	fmt.Printf("Hi, I am %s, I work at %s. Call me on %s\n", e.name, 
@@ -44,7 +46,7 @@ func (e *Employee) SayHi() {
 } 
 
 //Student实现BorrowMoney方法 
-func (s *Student) BorrowMoney(amount float32) {
+func (s Student) BorrowMoney(amount float32) {
     s.loan += amount // (again and again and...) 
 } 
 
@@ -71,3 +73,27 @@ type ElderlyGent interface {
 	Sing(song string)    
 	SpendSalary(amount float32) 
 } 
+
+
+func main() {
+	xixi := Student{Human{"xixi",22,"123456789"},"台北一中",99.9}
+	sisi := Employee{Human{"sisi",22,"1289"},"另一互联",10000}
+	dia := Student{Human{"dia",22,"1789"},"台北一中",99.9}
+	var m Men
+	m = &xixi
+	m.SayHi()
+	m.Sing("可不可以")
+	m.Guzzle("青岛纯生")
+
+	var y YoungChap
+	y = &dia
+	y.SayHi()
+	y.Sing("你好")
+	y.BorrowMoney(100.0)
+
+	var e ElderlyGent
+	e = &sisi
+	e.SayHi()
+	e.Sing("爱你一万年")
+	e.SpendSalary(900)
+}
