@@ -50,7 +50,7 @@ func main()  {
 	i.Sing("November rain")
 
 	i = Tom
-	fmt.Println("this is mike, an Employee:")
+	fmt.Println("this is tom, an Employee:")
 	i.SayHi()
 	i.Sing("Born to be wild")
 
