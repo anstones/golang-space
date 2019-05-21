@@ -1,15 +1,11 @@
 package main
-
 import (
 	"fmt"
 	"net/http"
 )
+type MyMux struct {}
 
-type MyMux struct {
-
-}
-
-func (p *MyMux) ServerHTTP (w http.ResponseWriter, r *http.Request){
+func (p *MyMux) ServeHTTP (w http.ResponseWriter, r *http.Request){
 	if r.URL.Path == "/"{
 		sayhelloName(w,r)
 		return
@@ -17,12 +13,10 @@ func (p *MyMux) ServerHTTP (w http.ResponseWriter, r *http.Request){
 	http.NotFound(w,r)
 	return
 }
-
 func sayhelloName(w http.ResponseWriter, r *http.Request)  {
 	fmt.Println(w, "hello world")
 }
-
 func main()  {
-	 m := &MyMux{}
-	 http.ListenAndServe("9090", m)
+	 mux := &MyMux{}
+	 http.ListenAndServe(":9090", mux)
 }
