@@ -5,10 +5,10 @@ package main
 import (
 	"crypto/md5"
 	"fmt"
+	"html/template"
 	"io"
 	"log"
 	"net/http"
-	"html/template"
 	"strconv"
 	"time"
 )
