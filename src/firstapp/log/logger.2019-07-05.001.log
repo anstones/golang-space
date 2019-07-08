@@ -1,0 +1,119 @@
+2019/07/03 09:05:24.924 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/03 09:05:25.027 [I] [session.go:35]  name : stone
+
+2019/07/03 09:05:25.027 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/03 09:05:25.051 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/03 09:05:25.061 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/03 09:05:25.063 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/03 09:05:25.063 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/03 09:05:25.064 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/03 09:05:25.064 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/03 09:05:25.064 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/03 09:05:25.065 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/03 09:05:58.970 [D] [user.go:119]  http: no such file
+2019/07/04 10:15:10.346 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/04 10:15:10.616 [I] [session.go:35]  name : stone
+
+2019/07/04 10:15:10.619 [D] [house.go:37]  Index Houses....
+2019/07/04 10:15:10.621 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:15:10.627 [I] [house.go:48]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:15:10.849 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/04 10:15:10.851 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/04 10:15:10.855 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/04 10:15:10.876 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/04 10:15:10.876 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/04 10:15:10.876 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/04 10:15:10.876 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/04 10:15:10.876 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/04 10:15:10.877 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/04 10:15:31.757 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:15:40.453 [I] [session.go:35]  name : stone
+
+2019/07/04 10:15:40.455 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:15:40.455 [D] [house.go:37]  Index Houses....
+2019/07/04 10:15:40.470 [I] [house.go:48]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:15:40.493 [I] [house.go:61]  ======= get house page info  from CACHE!!! ========
+2019/07/04 10:18:18.547 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 10:28:57.165 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 15:51:28.519 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/04 15:51:28.671 [I] [session.go:35]  name : stone
+
+2019/07/04 15:51:28.682 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 15:51:28.686 [D] [house.go:212]  Index Houses....
+2019/07/04 15:51:28.686 [I] [house.go:223]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/04 15:51:28.720 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/04 15:51:28.720 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/04 15:51:28.721 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/04 15:51:28.722 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/04 15:51:28.722 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/04 15:51:28.722 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+

@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func printSlice(x []int){
+   fmt.Printf("len=%d cap=%d slice=%v\n",len(x),cap(x),x)
+}
+
 func main() {
    var numbers []int
    printSlice(numbers)
@@ -23,9 +27,28 @@ func main() {
 
    /* 拷贝 numbers 的内容到 numbers1 */
    copy(numbers1,numbers)
-   printSlice(numbers1)   
+   printSlice(numbers1)
+
+   veggies := []string{"potatoes", "tomatoes", "brinjal"}
+   fruits := []string{"oranges", "apples"}
+
+   fmt.Println("len",len(veggies), "cap", cap(veggies))
+   fmt.Println("len",len(fruits), "cap", cap(fruits))
+   food := append(veggies, fruits...)
+   fmt.Println("food:",food)
+
+   fmt.Println("len",len(food), "cap", cap(food))
+
+
+   darr := []int{57, 89, 90, 82, 100, 78, 67, 69, 59}
+   darr = append(darr, 100)
+
+   fmt.Println("len",len(darr), "cap", cap(darr))
+   dslice := darr[2:5]
+   fmt.Println("array before", darr)
+   for i := range dslice {
+      dslice[i]++
+   }
+   fmt.Println("array after", darr)
 }
 
-func printSlice(x []int){
-   fmt.Printf("len=%d cap=%d slice=%v\n",len(x),cap(x),x)
-}

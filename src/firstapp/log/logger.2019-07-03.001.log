@@ -1,0 +1,253 @@
+2019/06/28 20:55:57.075 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/06/28 20:55:57.113 [I] [initializer.go:40]  ==========cleanup
+2019/06/29 11:38:40.860 [I] [default.go:69]  My frist beego app start
+2019/06/29 15:43:16.210 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/06/29 15:43:16.211 [I] [initializer.go:40]  ==========cleanup
+2019/07/01 17:13:41.755 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/7efb4fd4-cf8e-4728-ab01-0c6514f017f0)
+2019/07/01 17:14:15.032 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/users)
+2019/07/01 17:29:01.901 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/users)
+2019/07/01 17:31:58.254 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/users)
+2019/07/01 17:38:56.967 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/users)
+2019/07/01 17:46:09.656 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/7efb4fd4-cf8e-4728-ab01-0c6514f017f0)
+2019/07/01 17:51:01.445 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/1e29de92-846b-4f52-af4e-58a791386895)
+2019/07/01 18:01:35.083 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/51b76446-71e7-4144-b932-83ba5929ba24)
+2019/07/01 18:01:36.554 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/5789487b-2ede-4c43-9bd8-dc593da83f02)
+2019/07/01 18:01:36.929 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/7f75a413-3158-44a2-af90-90e6e045af1e)
+2019/07/01 18:01:37.113 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/b7520f39-026d-4a47-a6d2-cd9062ff266a)
+2019/07/01 18:01:37.336 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/f2f1ee6f-a766-476c-bad8-fe900f9a9d99)
+2019/07/01 18:01:37.545 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/d3bd56ff-0660-42dc-bbb1-115323038d14)
+2019/07/01 18:01:37.777 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/54b25ac9-db53-4f94-ac89-ac39028153e4)
+2019/07/01 18:01:37.977 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/f645c226-a282-403f-86cc-89282003d0bb)
+2019/07/01 18:01:38.273 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/0470dfc4-237a-4ed9-881e-b50f4a1bad23)
+2019/07/01 18:01:38.466 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/be7ff417-e262-4129-95df-7e3899afcf57)
+2019/07/01 18:01:38.657 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/470791e5-129c-4ea4-bd8d-aa04be15c393)
+2019/07/01 18:01:38.842 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/72fbbc4b-4862-40fa-939b-ca6ca9d6f36a)
+2019/07/01 18:01:39.201 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/27d59e58-6b42-45e8-a2c3-09c7a8eb9bd0)
+2019/07/01 18:01:40.424 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/b761a985-4642-4427-9bc7-f9c1b49c6430)
+2019/07/01 18:01:41.681 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/8c10fc3a-675e-4581-aaba-669dd4060f27)
+2019/07/01 18:01:42.545 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/imagecode/07867280-6023-446e-928e-ac202a43a073)
+2019/07/01 19:02:04.681 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/01 19:02:04.681 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 10:43:39.696 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/areas)
+2019/07/02 10:48:19.768 [I] [router.go:29]  request url: %!(EXTRA string=/api/v1.0/areas)
+2019/07/02 11:03:12.056 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 11:03:12.057 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 11:05:27.506 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 11:05:27.508 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 11:05:48.049 [I] [areas.go:42]  ====%!(EXTRA []uint8=[123 34 99 111 110 110 34 58 34 49 57 50 46 49 54 56 46 49 51 51 46 49 50 56 58 54 51 55 57 34 44 34 100 98 110 117 109 34 58 34 49 34 44 34 107 101 121 34 58 34 105 104 111 109 101 34 125])
+2019/07/02 11:05:48.050 [D] [areas.go:45]  connect cache error@@@@@@@@@@
+2019/07/02 11:06:13.640 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 11:06:13.641 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 11:06:24.783 [I] [areas.go:42]  ===={"conn":"192.168.133.128:6379","dbnum":"1","key":"ihome"}
+
+2019/07/02 11:06:24.784 [D] [areas.go:45]  connect cache error@@@@@@@@@@
+2019/07/02 11:16:01.367 [I] [areas.go:42]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 11:16:01.368 [D] [areas.go:45]  connect cache error@@@@@@@@@@
+2019/07/02 14:33:05.552 [I] [areas.go:42]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 14:33:05.552 [D] [areas.go:45]  connect cache error cache: unknown adapter name "redis" (forgot to import?)
+2019/07/02 14:37:05.553 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 14:37:05.662 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/02 14:37:05.662 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/02 14:37:05.662 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/02 14:37:05.662 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/02 14:37:05.663 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/02 14:37:05.664 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/02 14:37:05.664 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/02 14:37:05.664 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/02 14:37:05.664 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/02 14:37:05.664 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/02 15:16:49.911 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:16:52.652 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:19:27.013 [I] [login.go:45]  Login RequestInfo:{Moblie:1868227708 Password:123456}
+
+2019/07/02 15:19:28.595 [I] [login.go:45]  Login RequestInfo:{Moblie:1868227708 Password:123456}
+
+2019/07/02 15:19:38.903 [I] [login.go:45]  Login RequestInfo:{Moblie:186822770 Password:123456}
+
+2019/07/02 15:19:55.210 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 15:20:05.139 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 15:20:23.422 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 15:25:04.088 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:29:56.030 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 15:29:56.031 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 15:30:25.530 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:34:56.586 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 15:34:56.588 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 15:35:13.434 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:36:53.862 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 15:36:53.863 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 15:37:09.366 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:37:38.150 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:42:11.696 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 15:42:11.700 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 15:42:31.179 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 15:55:20.648 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 15:55:20.648 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 15:55:52.475 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 16:00:24.360 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 16:01:21.029 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 16:02:02.880 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 16:02:02.881 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 16:02:42.094 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 16:02:42.270 [I] [session.go:35]  name : stone
+
+2019/07/02 16:02:42.272 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 16:02:42.275 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/02 16:02:42.275 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/02 16:02:42.275 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/02 16:02:42.276 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/02 16:02:42.276 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/02 16:02:42.279 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/02 16:02:42.287 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/02 16:02:42.287 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/02 16:02:42.287 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/02 16:02:42.287 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/02 16:02:42.287 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/02 16:02:42.288 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/02 16:02:42.288 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/02 16:02:42.288 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/02 16:02:42.288 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/02 16:04:31.416 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 16:04:31.509 [I] [session.go:35]  name : stone
+
+2019/07/02 16:04:31.513 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 16:04:39.875 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 17:27:49.721 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 17:27:49.721 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 17:29:49.284 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:1234546}
+
+2019/07/02 17:29:50.737 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:1234546}
+
+2019/07/02 17:31:39.255 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 17:31:39.255 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 17:32:01.847 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 17:32:16.055 [I] [dassignal.go:22]  Received signal: 'interrupt'
+2019/07/02 17:32:16.056 [I] [initializer.go:40]  ==========cleanup
+2019/07/02 17:32:40.168 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 17:34:57.590 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 17:40:25.612 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 17:40:25.909 [I] [session.go:35]  name : stone
+
+2019/07/02 17:40:25.910 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 17:40:25.912 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/02 17:40:25.912 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/02 17:40:25.913 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/02 17:40:25.913 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/02 17:40:25.913 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/02 17:40:25.913 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/02 17:40:25.913 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/02 17:40:25.914 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/02 17:40:25.914 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/02 17:40:25.914 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/02 17:40:25.914 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/02 17:40:25.914 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/02 17:40:25.915 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/02 17:40:25.915 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/02 17:40:25.915 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/02 17:40:54.595 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 17:40:58.509 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 17:40:58.510 [I] [session.go:35]  name : stone
+
+2019/07/02 20:00:57.080 [I] [login.go:45]  Login RequestInfo:{Moblie:18682277087 Password:123456}
+
+2019/07/02 20:00:57.193 [I] [session.go:35]  name : stone
+
+2019/07/02 20:00:57.194 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
+2019/07/02 20:00:57.210 [I] [areas.go:78]  {Id:1 Name:东城区 Houses:[]}
+
+2019/07/02 20:00:57.211 [I] [areas.go:78]  {Id:2 Name:西城区 Houses:[]}
+
+2019/07/02 20:00:57.211 [I] [areas.go:78]  {Id:3 Name:朝阳区 Houses:[]}
+
+2019/07/02 20:00:57.211 [I] [areas.go:78]  {Id:4 Name:海淀区 Houses:[]}
+
+2019/07/02 20:00:57.211 [I] [areas.go:78]  {Id:5 Name:昌平区 Houses:[]}
+
+2019/07/02 20:00:57.216 [I] [areas.go:78]  {Id:6 Name:丰台区 Houses:[]}
+
+2019/07/02 20:00:57.217 [I] [areas.go:78]  {Id:7 Name:房山区 Houses:[]}
+
+2019/07/02 20:00:57.217 [I] [areas.go:78]  {Id:8 Name:通州区 Houses:[]}
+
+2019/07/02 20:00:57.217 [I] [areas.go:78]  {Id:9 Name:顺义区 Houses:[]}
+
+2019/07/02 20:00:57.217 [I] [areas.go:78]  {Id:10 Name:大兴区 Houses:[]}
+
+2019/07/02 20:00:57.217 [I] [areas.go:78]  {Id:11 Name:怀柔区 Houses:[]}
+
+2019/07/02 20:00:57.218 [I] [areas.go:78]  {Id:12 Name:平谷区 Houses:[]}
+
+2019/07/02 20:00:57.218 [I] [areas.go:78]  {Id:13 Name:密云区 Houses:[]}
+
+2019/07/02 20:00:57.218 [I] [areas.go:78]  {Id:14 Name:延庆区 Houses:[]}
+
+2019/07/02 20:00:57.218 [I] [areas.go:78]  {Id:15 Name:石景山区 Houses:[]}
+
+2019/07/02 20:01:09.928 [I] [areas.go:43]  ===={"conn":"192.168.133.128:6379","dbNum":"1","key":"ihome"}
