@@ -18,7 +18,7 @@ func (g Logger) Log(l string) {
 }
 
 type GameService struct {
-	Logger //嵌入日志器， 日志器实现了 Log 方法
+	Logger //嵌入日志器， 日志器实现了 loggers 方法
 }
 
 func (g GameService) Start() {

@@ -39,7 +39,7 @@ func init()  {
 			//		fmt.Println("=========================")
 			//		return true
 			//	}
-			//	Log.Info("now domaain is:", ctx.Input.Domain())
+			//	loggers.Info("now domaain is:", ctx.Input.Domain())
 			//	return false
 			//}),
 			beego.NSNamespace("/v1.0",

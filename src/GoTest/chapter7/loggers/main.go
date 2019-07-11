@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoTest/chapter7"
+	"GoTest/chapter7/loggers/logger"
 	"fmt"
 )
 
