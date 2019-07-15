@@ -5,12 +5,13 @@ package tcppage
 import (
 	"bytes"
 	"encoding/binary"
+	"fmt"
 	"io"
 )
 
 // 二进制封包格式
 type Packet struct {
-	Size uint16
+	Size uint16   //占2个字节
 	Body []byte
 }
 
@@ -39,4 +40,35 @@ func WritePacket(dataWriter io.Writer, data []byte) error  {
 	}
 
 	return nil
+}
+
+func readPacket(dataReader io.Writer) (pkt Packet, err error) {
+
+	// Size 为unit16类型 占2个字节
+	var sizeBuffer = make([]byte,2)
+
+	//持续读取size直到读到为止
+	_, err = io.ReadFull(dataReader, sizeBuffer)
+
+	if err != nil{
+		fmt.Println(err)
+		return
+	}
+
+	// 使用bytes.Reader 读取sizeBuffer 中的数据
+	sizeBuffer := bytes.NewReader(sizeBuffer)
+
+	// 读取小端的unit16作为size
+	err = binary.Read(sizeBuffer, binary.LittleEndian, &pkt.Size)
+
+	if err != nil{
+		fmt.Println(err)
+		return
+	}
+
+	pkt.Body = make([]byte, pkt.Size)
+
+	_, err = io.ReadFull(dataReader, pkt.Body)
+
+	return
 }
