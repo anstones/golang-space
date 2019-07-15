@@ -4,6 +4,7 @@ package main
 // 优雅的解决tcp黏包
 
 import (
+	"GoTest/chapter12/tcppkt/tcppage"
 	"net"
 	"strconv"
 )
@@ -17,7 +18,7 @@ func main() {
 	// 接收到的计数器
 	var recvCounter int
 
-	acceptor := NewAcceptor()
+	acceptor := tcppage.NewAcceptor()
 
 	acceptor.Start(address)
 
@@ -43,7 +44,7 @@ func main() {
 		return true
 	}
 
-	Connector(address, TestCount)
+	tcppage.Connector(address, TestCount)
 
 	acceptor.Wait()
 

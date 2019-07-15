@@ -35,6 +35,6 @@ func (f *fileWriter) Write(data interface{}) error {
 	return err
 }
 
-func newFileWriter() *fileWriter {
+func NewFileWriter() *fileWriter {
 	return &fileWriter{}
 }

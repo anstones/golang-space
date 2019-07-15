@@ -3,6 +3,7 @@ package main
 // 模拟json.marshal
 
 import (
+	"GoTest/chapter10/marshaljson/json"
 	"fmt"
 )
 
@@ -25,13 +26,13 @@ func main() {
 		Name:"cow boy",
 		Age:30,
 		Skills:[]Skill{
-			{"Roll and roll",3},
-			{"Flash your dog eye", 6},
-			{"Time to have Lunch",3},
+			{Name:"Roll and roll",Level:3},
+			{Name:"Flash your dog eye",Level: 6},
+			{Name:"Time to have Lunch",Level:3},
 		},
 	}
 
-	if result,err := MarshalJson(a); err == nil{
+	if result,err := json.MarshalJson(a); err == nil{
 		fmt.Println(result)
 
 	}else {

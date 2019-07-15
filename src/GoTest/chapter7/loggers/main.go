@@ -6,19 +6,19 @@ import (
 )
 
 // 创建日志器
-func createLogger() *Logger {
+func createLogger() *logger.Logger {
 
 	// 创建日志器
-	l := NewLogger()
+	l := logger.NewLogger()
 
 	// 创建命令行写入器
-	cw := newConsoleWriter()
+	cw := logger.NewConsoleWriter()
 
 	// 注册命令行写入器到日志器
 	l.RegisterWriter(cw)
 
 	// 创建文件写入器
-	fw := newFileWriter()
+	fw :=logger.NewFileWriter()
 
 	// 设置文件名
 	if err := fw.Setfile("log.log"); err != nil {

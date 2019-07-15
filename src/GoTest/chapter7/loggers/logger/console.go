@@ -16,6 +16,6 @@ func (f *consoleWriter) Write(data interface{}) error {
 	return err
 }
 
-func newConsoleWriter() *consoleWriter {
+func NewConsoleWriter() *consoleWriter {
 	return &consoleWriter{}
 }
