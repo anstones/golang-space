@@ -24,9 +24,7 @@ func (w Work) ShowB() int {
 
 func main() {
 	var s1 []int
-	fmt.Println(s1)
 	var s2 = []int{}
-	fmt.Println(s2)
 	if s1 == nil {
 		fmt.Println("yes nil")
 	} else {
@@ -35,5 +33,11 @@ func main() {
 
 	i := 65
 	fmt.Println(string(i))
+
+	c := Work{3}
+	var a A = c
+	var b B = c
+	fmt.Println(a.ShowA())
+	fmt.Println(b.ShowB())
 
 }
