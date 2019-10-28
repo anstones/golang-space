@@ -48,6 +48,9 @@ func main() {
 	g := Work{3}
 	var x A = g
 	var y B = g
-	fmt.Println(y.ShowA())
-	fmt.Println(x.ShowB())
+	// fmt.Println(y.ShowA()) //接口B 不包括方法 showA()
+	// fmt.Println(x.ShowB()) //接口A 也不包括方法 ShowB()
+
+	fmt.Println(x.ShowA())
+	fmt.Println(y.ShowB())
 }
