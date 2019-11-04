@@ -101,7 +101,9 @@ recover 拦截程序运行恐慌，一般和panic 配合使用
 </pre>
 
 ### goto 
-
+<pre>
+goto 跳转语句关键字
+</pre>
 
 
 
