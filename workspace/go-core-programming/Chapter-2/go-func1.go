@@ -28,7 +28,7 @@ func main() {
 	fmt.Println(a)
 
 	silce := []int{1, 2, 3, 4}
-	array := [...]int{1, 2, 3, 4}
+	// array := [...]int{1, 2, 3, 4}
 	// Sum(array)     //数纽不可以作为实参传递给不定参数的函数
 	// Sum(array...)  //数纽不可以作为实参传递给不定参数的函数
 	fmt.Println(Sum(silce...))
